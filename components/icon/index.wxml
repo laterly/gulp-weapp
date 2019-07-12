@@ -1,0 +1,2 @@
+<!--component/icon/icon.wxml-->
+ <text class="{{name}} le-icon"></text>

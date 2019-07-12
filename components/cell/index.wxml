@@ -1,0 +1,11 @@
+<!--components/cell/index.wxml-->
+<view class='cell flex-row'>
+  <view class='left flex-row flex-center'>
+    <view class='icon flex-center'>
+      <le-icon name="icon-location"></le-icon>
+    </view>
+    <view class='name'>智能客服</view>
+  </view>
+  <view class='arrow flex-center'>定位  <le-icon name="icon-right"></le-icon>
+  </view>
+</view>

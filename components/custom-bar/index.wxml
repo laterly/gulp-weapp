@@ -1,0 +1,17 @@
+<!--components/custom-bar/index.wxml-->
+<view class="cu-custom" style="height:{{customBar}}px;">
+  <view class="cu-bar fixed" style="height:{{customBar}}px;padding-top:{{statusBar}}px;background-color:{{bgColour}};">
+    <!--需要返回按钮-->
+    <navigator class='action' open-type="navigateBack" delta="1" hover-class="none" wx:if="{{showNavigator&&type==1}}">
+      <le-icon name='icon-back' style='color:{{iconColor}}'></le-icon>
+      <le-icon name='icon-homefill' style='color:{{iconColor}}' wx:if="{{}}"></le-icon>
+      <text style='color:{{textColor}}' wx:if="{{position=='left'}}">{{title}}</text>
+    </navigator>
+    <view class='action border-custom' style='width:87px;height:32px;margin-left:calc(375px - 365px)' wx:if="{{showNavigator&&type==2}}">
+      <le-icon name='icon-back' style='color:{{iconColor}};display:block;flex:1;margin:auto !important;text-align:center;font-size:34rpx;' catchtap='goBack'></le-icon>
+      <le-icon name='icon-homefill' style='color:{{iconColor}};display:block;flex:1;margin:auto !important;text-align:center;font-size:34rpx;' catchtap='goIndex'></le-icon>
+    </view>
+    <!--默认字体居中-->
+    <view class='content' style='top:{{statusBar}}px;color:{{textColor}}' wx:if="{{position=='center'}}">{{title}}</view>
+  </view>
+</view>
