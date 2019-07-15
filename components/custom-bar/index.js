@@ -25,7 +25,7 @@ Component({
     },
     bgColour: {
       type: String,
-      value: '#1cbbb4;'
+      value: '#1387AE'
     },
     iconColor: {
       type: String,

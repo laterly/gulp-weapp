@@ -1,4 +1,9 @@
 // component/icon/icon.js
+/**
+ * name icon类名
+ * size	icon颜色
+ * color	icon颜色
+ * */
 Component({
   /**
    * 组件的属性列表
@@ -7,6 +12,14 @@ Component({
     name:{
       type: String,
       value: ''
+    },
+    size:{
+      type: String,
+      value: '16px'
+    },
+    color:{
+      type: String,
+      value: '#323233'
     }
   },
 

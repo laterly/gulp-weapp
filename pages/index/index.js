@@ -7,17 +7,17 @@ Page({
     components:[
       {
         icon:'icon-all',
-        name:'基础组件',
-        page:'/pages/base/base'
+        name:'Button按钮',
+        page:'/pages/button/button'
       },
       {
         icon: 'icon-cascades',
-        name: '布局组件',
+        name: 'Icon图标',
         page: '/pages/base/base'
       },
       {
-        icon: 'icon-circle',
-        name: '视图组件',
+        icon: 'icon-list',
+        name: 'Cell单元格',
         page: '/pages/base/base'
       }
     ]

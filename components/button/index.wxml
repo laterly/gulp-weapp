@@ -1,0 +1,4 @@
+<!--components/button/button.wxml-->
+<button class='le-button {{type}} {{plain?"plain":""}} {{square?"square":""}} {{round?"round":""}} {{size}} {{disabled?"disabled":""}} {{shadow?"shadow":""}}' disabled="{{disabled?true:false}}" catchtap='click'>
+  <view class='{{plain?"plain":""}}'><slot/></view>
+</button>

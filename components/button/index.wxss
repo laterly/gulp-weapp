@@ -1,0 +1,156 @@
+/* components/button/button.wxss */
+
+button {
+  background: transparent;
+  border: none;
+  border-color: transparent;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+button::after {
+  border: none;
+}
+
+.le-button {
+  display: inline-block;
+  padding: 1px 15px;
+  font-size: 14px;
+  color: #323233;
+  border: 1px solid #ebedf0;
+  background-color: #fff;
+}
+
+.le-button {
+  margin-right: 10px;
+}
+
+.le-button::last-child {
+  margin-right: 0;
+}
+
+.le-button.primary {
+  background-color: #1387ae;
+  color: #fff;
+  border: 1px #1387ae solid;
+}
+
+.le-button.info {
+  background-color: #07f;
+  color: #fff;
+  border: 1px #07f solid;
+}
+
+.le-button.warning {
+  background-color: #fbbd08;
+  color: #fff;
+  border: 1px #fbbd08 solid;
+}
+
+.le-button.danger {
+  background-color: #e54d42;
+  color: #fff;
+  border: 1px #e54d42 solid;
+}
+
+.le-button.dark {
+  background-color: #f0f0f0;
+  border: 1px #f0f0f0 solid;
+}
+
+.le-button.plain {
+  background-color: #fff;
+}
+
+.le-button.primary .plain {
+  color: #1387ae;
+}
+
+.le-button.info .plain {
+  color: #07f;
+}
+
+.le-button.warning .plain {
+  color: #fbbd08;
+}
+
+.le-button.danger .plain {
+  color: #e54d42;
+}
+
+.le-button.danger .plain {
+  color: #f0f0f0;
+}
+
+.le-button.round {
+  border-radius: 100px;
+}
+
+.le-button.square {
+  border-radius: 0;
+}
+
+.le-button.large {
+  width: 100%;
+}
+
+.le-button.small {
+  height: 30px;
+  line-height: 28px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.le-button.mini {
+  height: 25px;
+  line-height: 23px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+.le-button.primary.disabled{
+  background-color:#1387ae!important;
+  opacity: 0.5;
+  color: #fff!important;
+}
+.le-button.info.disabled{
+  background-color:#07f!important;
+  opacity: 0.5;
+  color: #fff!important;
+}
+.le-button.warning.disabled{
+  background-color:#fbbd08!important;
+  opacity: 0.5;
+  color: #fff!important;
+}
+.le-button.danger.disabled{
+  background-color:#e54d42!important;
+  opacity: 0.5;
+  color: #fff!important;
+}
+.le-button.dark.disabled{
+  background-color:#f0f0f0!important;
+  opacity: 0.5;
+  color: #fff!important;
+}
+
+.le-button.primary.shadow {
+  box-shadow: 6rpx 6rpx 8rpx rgba(19,135,174, 0.2);
+}
+
+.le-button.info.shadow {
+  box-shadow: 6rpx 6rpx 8rpx rgba(0,119,255, 0.2);
+}
+
+.le-button.warning.shadow {
+ box-shadow: 6rpx 6rpx 8rpx rgba(251,189,8, 0.2);
+}
+
+.le-button.danger.shadow {
+  box-shadow: 6rpx 6rpx 8rpx rgba(229,77,66, 0.2);
+}
+
+.le-button.dark.shadow {
+  box-shadow: 6rpx 6rpx 8rpx rgba(240,240,240, 0.2);
+}
