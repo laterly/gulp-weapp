@@ -18,7 +18,7 @@ Page({
       {
         icon: 'icon-list',
         name: 'Cell单元格',
-        page: '/pages/base/base'
+        page: '/pages/cell/cell'
       }
     ]
   },

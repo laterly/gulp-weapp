@@ -16,7 +16,7 @@ button::after {
 
 .le-button {
   display: inline-block;
-  padding: 1px 15px;
+  padding: 0 15px;
   font-size: 14px;
   color: #323233;
   border: 1px solid #ebedf0;
