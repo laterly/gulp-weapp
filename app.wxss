@@ -130,3 +130,31 @@ page {
   top: 50%;
   transform: translateY(-50%);
 }
+
+@keyframes show {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  60% {
+    transform: translateY(40rpx);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+    transform: translateY(-50px);
+  }
+
+  60% {
+    transform: translateY(40rpx);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}

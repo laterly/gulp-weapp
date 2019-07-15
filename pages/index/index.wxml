@@ -5,7 +5,7 @@
 <!-- <le-wave></le-wave> -->
   <view class='top-area flex-center'></view>
   <view class='center flex-row'>
-    <view class='list' wx:for="{{components}}" wx:key="{{index}}" data-page="{{item.page}}" catchtap='goPage'>
+    <view class='list' wx:for="{{components}}" wx:key="{{index}}" data-page="{{item.page}}" catchtap='goPage' style='animation: show {{(index+1)*0.2+1}}s 1;-webkit-animation: show {{(index+1)*0.2+1}}s 1;'>
       <view class='title'>
         <le-icon name="{{item.icon}}" class='title-icon'></le-icon>
       </view>
