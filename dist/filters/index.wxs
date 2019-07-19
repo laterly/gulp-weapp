@@ -1,0 +1,15 @@
+"use strict";
+
+var filter = function filter() {
+  var flag = 0;
+
+  for (var i = 0; i < 10; i++) {
+    if ([1, 2, 3].includes(i)) {
+      flag = i;
+    }
+  }
+
+  return flag;
+};
+
+module.exports = filter;

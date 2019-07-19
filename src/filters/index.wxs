@@ -1,0 +1,11 @@
+
+let filter = ()=>{
+  let flag=0;
+  for(let i=0;i<10;i++){
+    if([1,2,3].includes(i)){
+      flag=i;
+    }
+  }
+  return flag;
+}
+module.exports = filter;
